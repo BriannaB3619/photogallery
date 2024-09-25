@@ -331,3 +331,87 @@ table {
 		font-size: 1em;
 	}
 }
+
+/*media query medium*/
+
+@media screen and (min-width:880px){
+	body{
+		min-width: 880px;
+	}
+	header{
+		width: 880px;
+	}
+	main{
+		width:880px;
+		box-sizing: border-box;
+		padding: 5px;
+        margin-right: 25px;
+	}
+
+	main h2, main p{
+		width:880px;
+	}
+
+	h1{
+		justify-self:left;
+		width: 880px;
+		padding:5px;
+	}
+	nav{
+		width:880px;
+	}
+
+	div{
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 10px;
+
+	}
+
+	figure{
+		box-sizing: border-box;
+		padding:0 5px;
+	}
+
+	#place3{
+		bottom: 200px;
+	}
+
+	section p, section h2{
+		width:880px;
+		box-sizing: border-box;
+	}
+
+	section{
+		width:880px;
+	} 
+
+	section h2{
+		padding-top: 15px;
+	}
+
+	section p{
+		padding-bottom:30px;
+	}
+
+	input{
+		width: 600px;
+	}
+
+	#mysubmit{
+		width:400px;
+		justify-self: center;
+	}
+
+	ul li:nth-child(4){
+		left: 825px;
+		top: 460px;
+	}
+
+	footer{
+		width: 880px;
+		box-sizing: border-box;
+		padding-right: 15px;
+		padding-top:20px;
+	}
+}
